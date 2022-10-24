@@ -34,7 +34,7 @@ if($cek > 0) {
 		$_SESSION['id_login'] = $data['id'];
 		$_SESSION['status'] = "pegawai";
 		// alihkan ke halaman dashboard admin
-		header("location:halaman_pegawai.php");
+		header("location:halaman_pegawai1.php");
 } else {
 
 header("location:login.php?pesan=gagal login data tidak ditemukan.");
